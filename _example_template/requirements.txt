@@ -325,7 +325,7 @@ phik==0.12.3
     # via ydata-profiling
 pickleshare==0.7.5
     # via ipython
-pillow==9.5.0
+pillow==10.3.0
     # via
     #   imagehash
     #   matplotlib
@@ -371,7 +371,9 @@ pygments==2.15.1
     #   ipython
     #   rich
 pyjwt[crypto]==2.7.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.1.0
@@ -515,7 +517,7 @@ urllib3==1.26.16
     #   kubernetes
     #   requests
     #   responses
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
