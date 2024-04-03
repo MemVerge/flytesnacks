@@ -465,7 +465,7 @@ phik==0.12.3
     # via ydata-profiling
 pickleshare==0.7.5
     # via ipython
-pillow==10.0.0
+pillow==10.3.0
     # via
     #   -r docs-requirements.in
     #   imagehash
@@ -522,7 +522,9 @@ pygments==2.16.1
     #   sphinx-prompt
     #   sphinx-tabs
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.0.9
@@ -774,7 +776,7 @@ urllib3==1.26.16
     #   requests
 virtualenv==20.24.3
     # via pre-commit
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
