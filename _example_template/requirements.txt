@@ -170,7 +170,7 @@ grpcio-status==1.56.0
     # via flytekit
 htmlmin==0.1.12
     # via ydata-profiling
-idna==3.4
+idna==3.7
     # via
     #   requests
     #   yarl
@@ -371,7 +371,9 @@ pygments==2.15.1
     #   ipython
     #   rich
 pyjwt[crypto]==2.7.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.1.0
@@ -515,7 +517,7 @@ urllib3==1.26.16
     #   kubernetes
     #   requests
     #   responses
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
