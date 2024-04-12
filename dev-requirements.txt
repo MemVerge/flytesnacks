@@ -168,7 +168,7 @@ grpcio-status==1.53.0
     # via flytekit
 identify==2.5.27
     # via pre-commit
-idna==3.4
+idna==3.7
     # via
     #   requests
     #   yarl
@@ -299,7 +299,9 @@ pyflakes==3.1.0
 pygments==2.16.1
     # via rich
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pytest==7.4.0
