@@ -8,7 +8,7 @@ adlfs==2023.8.0
     # via flytekit
 aiobotocore==2.5.4
     # via s3fs
-aiohttp==3.8.5
+aiohttp==3.9.4
     # via
     #   adlfs
     #   aiobotocore
@@ -28,8 +28,6 @@ astroid==2.15.6
     #   sphinx-autoapi
 asttokens==2.2.1
     # via stack-data
-async-timeout==4.0.3
-    # via aiohttp
 attrs==23.1.0
     # via
     #   aiohttp
@@ -75,9 +73,7 @@ cfgv==3.4.0
 chardet==5.2.0
     # via binaryornot
 charset-normalizer==3.2.0
-    # via
-    #   aiohttp
-    #   requests
+    # via requests
 click==8.1.7
     # via
     #   cookiecutter
@@ -522,7 +518,9 @@ pygments==2.16.1
     #   sphinx-prompt
     #   sphinx-tabs
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.0.9
@@ -774,7 +772,7 @@ urllib3==1.26.16
     #   requests
 virtualenv==20.24.3
     # via pre-commit
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
