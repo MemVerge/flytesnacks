@@ -364,14 +364,16 @@ pyasn1-modules==0.3.0
     # via google-auth
 pycparser==2.21
     # via cffi
-pydantic==1.10.9
+pydantic==1.10.13
     # via ydata-profiling
 pygments==2.15.1
     # via
     #   ipython
     #   rich
 pyjwt[crypto]==2.7.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.1.0
@@ -515,7 +517,7 @@ urllib3==1.26.16
     #   kubernetes
     #   requests
     #   responses
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
