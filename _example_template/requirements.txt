@@ -371,7 +371,9 @@ pygments==2.15.1
     #   ipython
     #   rich
 pyjwt[crypto]==2.7.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.1.0
@@ -482,7 +484,7 @@ tornado==6.3.2
     # via
     #   ipykernel
     #   jupyter-client
-tqdm==4.65.0
+tqdm==4.66.3
     # via ydata-profiling
 traitlets==5.9.0
     # via
@@ -515,7 +517,7 @@ urllib3==1.26.16
     #   kubernetes
     #   requests
     #   responses
-visions[type_image_path]==0.7.5
+visions[type-image-path]==0.7.5
     # via ydata-profiling
 wcwidth==0.2.6
     # via prompt-toolkit
