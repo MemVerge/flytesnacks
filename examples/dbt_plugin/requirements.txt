@@ -35,7 +35,7 @@ azure-core==1.28.0
     #   azure-storage-blob
 azure-datalake-store==0.0.53
     # via adlfs
-azure-identity==1.13.0
+azure-identity==1.16.1
     # via adlfs
 azure-storage-blob==12.17.0
     # via adlfs
@@ -83,6 +83,7 @@ cryptography==41.0.2
     #   msal
     #   pyjwt
     #   pyopenssl
+    #   secretstorage
 dataclasses-json==0.5.9
     # via flytekit
 dbt-core==1.2.6
@@ -185,6 +186,10 @@ isodate==0.6.1
     #   dbt-core
 jaraco-classes==3.3.0
     # via keyring
+jeepney==0.8.0
+    # via
+    #   keyring
+    #   secretstorage
 jinja2==2.11.3
     # via
     #   cookiecutter
@@ -228,7 +233,7 @@ minimal-snowplow-tracker==0.0.2
     # via dbt-core
 more-itertools==9.1.0
     # via jaraco-classes
-msal==1.22.0
+msal==1.28.1
     # via
     #   azure-datalake-store
     #   azure-identity
@@ -269,7 +274,6 @@ portalocker==2.7.0
     # via msal-extensions
 protobuf==4.23.4
     # via
-    #   dbt-core
     #   flyteidl
     #   google-api-core
     #   googleapis-common-protos
@@ -292,7 +296,9 @@ pycparser==2.21
 pygments==2.15.1
     # via rich
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.1.0
@@ -365,11 +371,12 @@ rsa==4.9
     # via google-auth
 s3fs==2023.6.0
     # via flytekit
+secretstorage==3.3.3
+    # via keyring
 six==1.16.0
     # via
     #   agate
     #   azure-core
-    #   azure-identity
     #   google-auth
     #   isodate
     #   jsonschema
